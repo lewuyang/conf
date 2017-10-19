@@ -6502,6 +6502,6 @@
     "+\u4ee3\u7406\u7ec4\u8bbe\u7f6e": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "PROXY 127.0.0.1:1080";
+        return "SOCKS 192.168.31.213:1081";
     }
 });
